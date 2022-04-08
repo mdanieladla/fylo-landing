@@ -1,0 +1,152 @@
+/*
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Dark Blue (intro and email sign up background): hsl(217, 28%, 15%)
+- Dark Blue (main background): hsl(218, 28%, 13%)
+- Dark Blue (footer background): hsl(216, 53%, 9%)
+- Dark Blue (testimonials background): hsl(219, 30%, 18%)
+
+### Accent
+
+- Cyan (inside call-to-action gradient): hsl(176, 68%, 64%)
+- Blue (inside call-to-action gradient): hsl(198, 60%, 50%)
+- Light Red (error): hsl(0, 100%, 63%)
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 14px
+
+### Headings, Call-to-actions, Header Navigation
+
+- Family: [Raleway](https://fonts.google.com/specimen/Raleway)
+- Weights: 400, 700
+
+### Body
+
+- Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+- Weights: 400, 700
+
+## Icons
+
+For the social icons, you can use a font icon library. Some suggestions can be found below:
+
+- [Font Awesome](https://fontawesome.com/)
+- [IcoMoon](https://icomoon.io/)
+- [Ionicons](https://ionicons.com/)
+*/
+
+:root{
+    /*### Primary*/
+    --main-background:  hsl(218, 28%, 13%);
+    --footer-background: hsl(216, 53%, 9%);
+    --testimonials-background: hsl(219, 30%, 18%);
+    --intro-email-bkg: hsl(217, 28%, 15%);
+    /*### Accent*/
+    --cta-gradient1: hsl(176, 68%, 64%);
+    --cta-gradient2: hsl(198, 60%, 50%);
+    --error: hsl(0, 100%, 63%);
+    /*### Neutral*/
+    --white: hsl(0, 0%, 100%);
+    /*typography*/
+    --body-copy: 14px;
+    --headings-more: 'Raleway', sans-serif;
+    --body-font: 'Open Sans', sans-serif;
+    --weight400: 400;
+    --weight700: 700;
+}
+
+html{
+    background-color: var(--main-background);
+    
+}
+/* ************************ HEADER *********************** */
+.header{
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.header-logo{
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 70px;
+    height: 25px;
+    
+}
+
+.header-ul{
+    font-family: var(--headings-more);
+    font-size: 12px;
+    color: var(--white);
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+
+li{
+    margin-left: 20px;
+}
+/* ************************* HERO *************************** */
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-ilustration{
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 300px;
+    height: 230px;
+    background-image: url(./images/bg-curvy-mobile.svg);
+}
+
+.hero-text{
+    font-family: var(--headings-more);
+    color: var(--white);
+    text-align: center;
+}
+
+.hero-heading{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 600;
+}
+
+.hero-par{
+    margin-left: 33px;
+    margin-right: 33px;
+    line-height: 23px;
+    font-size: 14px;
+}
+
+.hero-btn{
+    border-radius: 50px;
+    padding: 15px;
+    width: 230px;
+    background-color: var(--cta-gradient2);
+    border: solid 1px var(--cta-gradient2);
+    color: var(--white);
+    font-family: var(--headings-more);
+    font-weight: 500;
+    font-size: 14px;
+}
