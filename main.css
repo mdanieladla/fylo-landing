@@ -79,7 +79,6 @@ html{
 /* ************************ HEADER *********************** */
 .header{
     display: flex;
-    /* justify-content: space-between; */
 }
 
 .header-logo{
@@ -149,4 +148,30 @@ li{
     font-family: var(--headings-more);
     font-weight: 500;
     font-size: 14px;
+}
+/* ********************* FEATURES *********************** */
+.features{
+    margin-top: 130px;
+}
+
+.feature1, .feature2, .feature3, .feature4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--white);
+    font-family: var(--headings-more);
+    margin-bottom: 70px;
+}
+
+.features-title{
+    font-size: 19px;
+    margin-bottom: 0px;
+}
+
+.features-par{
+    text-align: center;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 23px;
 }
