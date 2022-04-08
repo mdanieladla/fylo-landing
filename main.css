@@ -175,3 +175,44 @@ li{
     margin-right: 20px;
     line-height: 23px;
 }
+/* ******************** PRODUCTIVE ********************** */
+.productive{
+    color: var(--white);
+    font-family: var(--headings-more);
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.productive-img{
+    width: 300px;
+    height: 230px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.productive-title{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.productive-par{
+    font-size: 14px;
+    line-height: 20px;
+    font-family: var(--body-copy);
+}
+
+.productive-link{
+    color: var(--cta-gradient1);
+    font-family: var(--body-copy);
+    font-size: 13px;
+    font-weight: var(--weight400);
+    text-decoration: none;
+}
+
+.test{
+    margin-top: 5px;
+    width: 135px;
+    height: 1px;
+    background-color: var(--cta-gradient1);
+}
