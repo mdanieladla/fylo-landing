@@ -74,7 +74,10 @@ For the social icons, you can use a font icon library. Some suggestions can be f
 
 html{
     background-color: var(--main-background);
-    
+}
+
+body{
+    margin: 0;
 }
 /* ************************ HEADER *********************** */
 .header{
@@ -215,4 +218,65 @@ li{
     width: 135px;
     height: 1px;
     background-color: var(--cta-gradient1);
+}
+/* ******************** OPINIONS ************************ */
+
+.opinions-quotes{
+    width: 25px;
+    height: 20px;
+    margin-top: 130px;
+}
+
+.opinions{
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.opinion{
+    font-family: var(--headings-more);
+    margin-top: 30px;
+    padding: 15px 20px 20px 20px;
+    background-color: var(--testimonials-background);
+    width: 250px;
+    height: 150px;
+}
+
+.opinion-par{
+    color: var(--white);
+    font-size: 11px;
+    line-height: 20px;
+}
+
+.opinion-info{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.opinion-photo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.opinion-info-person{
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.opinion-name{
+    margin: 0;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: var(--body-font);
+}
+
+.opinion-job{
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 10px;
 }
