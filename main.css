@@ -1,57 +1,3 @@
-/*
-# Front-end Style Guide
-
-## Layout
-
-The designs were created to the following widths:
-
-- Mobile: 375px
-- Desktop: 1440px
-
-## Colors
-
-### Primary
-
-- Dark Blue (intro and email sign up background): hsl(217, 28%, 15%)
-- Dark Blue (main background): hsl(218, 28%, 13%)
-- Dark Blue (footer background): hsl(216, 53%, 9%)
-- Dark Blue (testimonials background): hsl(219, 30%, 18%)
-
-### Accent
-
-- Cyan (inside call-to-action gradient): hsl(176, 68%, 64%)
-- Blue (inside call-to-action gradient): hsl(198, 60%, 50%)
-- Light Red (error): hsl(0, 100%, 63%)
-
-### Neutral
-
-- White: hsl(0, 0%, 100%)
-
-## Typography
-
-### Body Copy
-
-- Font size: 14px
-
-### Headings, Call-to-actions, Header Navigation
-
-- Family: [Raleway](https://fonts.google.com/specimen/Raleway)
-- Weights: 400, 700
-
-### Body
-
-- Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
-- Weights: 400, 700
-
-## Icons
-
-For the social icons, you can use a font icon library. Some suggestions can be found below:
-
-- [Font Awesome](https://fontawesome.com/)
-- [IcoMoon](https://icomoon.io/)
-- [Ionicons](https://ionicons.com/)
-*/
-
 :root{
     /*### Primary*/
     --main-background:  hsl(218, 28%, 13%);
@@ -73,10 +19,12 @@ For the social icons, you can use a font icon library. Some suggestions can be f
 }
 
 html{
+    height: 100vh;
     background-color: var(--main-background);
 }
 
 body{
+    min-height: 100vh;
     margin: 0;
 }
 /* ************************ HEADER *********************** */
@@ -225,10 +173,12 @@ li{
     width: 25px;
     height: 20px;
     margin-top: 130px;
+    position: relative;
+    right: 127px;
+    top: 30px;
 }
 
 .opinions{
-    margin-bottom: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -279,4 +229,130 @@ li{
     margin-top: 5px;
     font-weight: 400;
     font-size: 10px;
+}
+/* ********************* ACCESS ********************** */
+.access{
+    position: relative;
+    top: 150px;
+    border-radius: 10px;
+    margin-left: 17px;
+    margin-right: 17px;
+    background-color: var(--intro-email-bkg);
+    width: 280px;
+    height: 300px;
+    padding: 20px 30px 20px 30px;
+}
+
+.access-title{
+    color: var(--white);
+    text-align: center;
+    font-family: var(--body-font);
+    font-weight: var(--weight700);
+    font-size: 18px;
+}
+
+.access-par{
+    color: var(--white);
+    font-family: var(--body-font);
+    font-size: 14px;
+    text-align: center;
+    line-height: 23px;
+    font-weight: var(--weight400);
+}
+
+.access-form{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    border: 0;
+    outline-width: 0;
+    height: 45px;
+    border-radius: 50px;
+    padding-left: 30px;
+    font-size: 12px;
+    margin-bottom: 20px;
+    color: rgb(170, 170, 170);
+}
+
+.access-btn{
+    font-family: var(--body-font);
+    height: 45px;
+    border-radius: 50px;
+    color: var(--white);
+    border: 1px solid var(--cta-gradient2);
+    background-color: var(--cta-gradient2);
+}
+/* ************ FOOTER ************ */
+.footer{
+    background-color: var(--footer-background);
+    padding-top: 150px;
+    padding-bottom: 6px;
+}
+
+.footer-img{
+    margin: 50px 0 30px 30px;
+    /* margin-left: 30px;
+    margin-bottom: 30px; */
+}
+
+.footer-location{
+    display: grid;
+    grid-template-columns: 10% 90%;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.footer-par{
+    color: var(--white);
+    font-family: var(--body-font);
+    font-size: 16px;
+    margin-right: 27px;
+    line-height: 23px;
+}
+
+.footer-phone, .footer-email{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-span{
+    color: var(--white);
+    margin-left: 10px;
+    font-family: var(--body-font);
+    font-size: 15px;
+}
+
+.footer-nav{
+    margin-top: 50px;
+}
+
+.nav1, .nav2{
+    list-style-type: none;
+    color: var(--white);
+    font-family: var(--body-font);
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-nav-li{
+    margin-bottom: 10px;
+}
+
+.footer-social-nav{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.icons{
+    color: var(--white);
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 50px;
 }
