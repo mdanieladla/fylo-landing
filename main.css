@@ -410,48 +410,37 @@ li{
         margin-left: 60px;
         margin-right: 60px;
     }
-    /* ******************** PRODUCTIVE ********************** /
+    /* ******************** PRODUCTIVE ********************** */
     .productive{
-        color: var(--white);
-        font-family: var(--headings-more);
-        margin-top: 40px;
-        margin-left: 20px;
-        margin-right: 20px;
+        display: flex;
+        align-items: center;
+        gap: 100px;
+        margin-left: 100px;
+        margin-right: 100px;
     }
     
     .productive-img{
-        width: 300px;
-        height: 230px;
+        width: 500px;
+        height: 400px;
         margin-left: 10px;
         margin-bottom: 20px;
     }
     
+    .productive-div-text{
+        padding-right: 20px;
+        vertical-align: middle;
+    }
+
     .productive-title{
-        font-weight: 600;
-        font-size: 18px;
+        font-size: 32px;
+        margin-right: 150px;
     }
     
     .productive-par{
-        font-size: 14px;
-        line-height: 20px;
-        font-family: var(--body-copy);
+        font-size: 16px;
+        line-height: 30px;
     }
-    
-    .productive-link{
-        color: var(--cta-gradient1);
-        font-family: var(--body-copy);
-        font-size: 13px;
-        font-weight: var(--weight400);
-        text-decoration: none;
-    }
-    
-    .test{
-        margin-top: 5px;
-        width: 135px;
-        height: 1px;
-        background-color: var(--cta-gradient1);
-    }
-    / ******************** OPINIONS ************************ /
+    /* ******************** OPINIONS ************************ /
     
     .opinions-quotes{
         width: 25px;
