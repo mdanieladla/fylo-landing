@@ -440,152 +440,67 @@ li{
         font-size: 16px;
         line-height: 30px;
     }
-    /* ******************** OPINIONS ************************ /
-    
-    .opinions-quotes{
-        width: 25px;
-        height: 20px;
+    /* ******************** OPINIONS ************************ */
+    .flex-desktop{
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+    }
+     .opinions-quotes{
+        width: 40px;
+        height: 30px;
         margin-top: 130px;
         position: relative;
-        right: 127px;
-        top: 30px;
+        right: 470px;
+        top: 35px;
+        z-index: -1;
     }
-    
-    .opinions{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .opinion{
-        font-family: var(--headings-more);
-        margin-top: 30px;
-        padding: 15px 20px 20px 20px;
-        background-color: var(--testimonials-background);
-        width: 250px;
-        height: 150px;
-    }
-    
-    .opinion-par{
-        color: var(--white);
-        font-size: 11px;
-        line-height: 20px;
-    }
-    
-    .opinion-info{
-        display: grid;
-        grid-template-columns: 20% 80%;
-    }
-    
-    .opinion-photo{
-        width: 40px;
-        height: 40px;
-        border-radius: 50px;
-    }
-    
-    .opinion-info-person{
-        color: var(--white);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    
-    .opinion-name{
-        margin: 0;
-        font-size: 12px;
-        font-weight: 500;
-        font-family: var(--body-font);
-    }
-    
-    .opinion-job{
-        margin-top: 5px;
-        font-weight: 400;
-        font-size: 10px;
-    }
-    / ********************* ACCESS ********************** /
+    /* ********************* ACCESS ********************** */
     .access{
         position: relative;
-        top: 150px;
-        border-radius: 10px;
-        margin-left: 17px;
-        margin-right: 17px;
-        background-color: var(--intro-email-bkg);
-        width: 280px;
-        height: 300px;
-        padding: 20px 30px 20px 30px;
-    }
-    
-    .access-title{
-        color: var(--white);
-        text-align: center;
-        font-family: var(--body-font);
-        font-weight: var(--weight700);
-        font-size: 18px;
-    }
-    
-    .access-par{
-        color: var(--white);
-        font-family: var(--body-font);
-        font-size: 14px;
-        text-align: center;
-        line-height: 23px;
-        font-weight: var(--weight400);
+        top: 250px;
+        transform: translate(50%,-50%);
+        width: 650px;
+        height: 200px;
     }
     
     .access-form{
         margin-top: 30px;
-        display: flex;
-        flex-direction: column;
+        flex-direction: row;
     }
     
     .input{
-        border: 0;
-        outline-width: 0;
-        height: 45px;
-        border-radius: 50px;
-        padding-left: 30px;
-        font-size: 12px;
-        margin-bottom: 20px;
-        color: rgb(170, 170, 170);
+       width: 400px;
+       margin-right: 10px;
     }
     
     .access-btn{
-        font-family: var(--body-font);
-        height: 45px;
-        border-radius: 50px;
-        color: var(--white);
-        border: 1px solid var(--cta-gradient2);
-        background-color: var(--cta-gradient2);
+       width: 180px;
     }
-    / ************ FOOTER ************ /
-    .footer{
-        background-color: var(--footer-background);
-        padding-top: 150px;
-        padding-bottom: 6px;
-    }
-    
+    /* ************ FOOTER ************ */
     .footer-img{
-        margin: 50px 0 30px 30px;
-        / margin-left: 30px;
-        margin-bottom: 30px; /
+        margin: 50px 0 0 30px;
+        /* margin-left: 30px;
+        margin-bottom: 30px; */
+        width: 100px;
+        height: 100px;
     }
     
-    .footer-location{
-        display: grid;
-        grid-template-columns: 10% 90%;
+    .footer-desktop{
+        display: flex;
+        flex-direction: row;
         align-items: center;
-        margin-left: 20px;
     }
-    
+
     .footer-par{
         color: var(--white);
         font-family: var(--body-font);
         font-size: 16px;
         margin-right: 27px;
         line-height: 23px;
+        width: 350px;
     }
-    
+/*     
     .footer-phone, .footer-email{
         margin-left: 20px;
         margin-bottom: 20px;
