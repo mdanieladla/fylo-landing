@@ -360,6 +360,19 @@ li{
     border-radius: 50px;
 }
 
+.err-message{
+    font-weight: 600;
+    font-size: 12px;
+    font-family: var(--body-font);
+    color: red;
+    position: relative;
+    top: -15px;
+    left: 15px;
+}
+
+.display-err{
+    display: none;
+}
 /* MEDIA QUERIES */
 @media all and (min-width: 1024px){
     .header{
