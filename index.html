@@ -185,10 +185,17 @@
           extremely generous. If you have any questions, our support team would
           be happy to help you.
         </p>
-        <form action="" class="access-form">
-          <input type="email" placeholder="email@example.com" class="input" />
-          <button class="access-btn">Get Started For Free</button>
+        <form action="" class="access-form js-form">
+          <input
+            type="email"
+            placeholder="email@example.com"
+            class="input js-input"
+          />
+          <button class="access-btn js-access-btn">Get Started For Free</button>
         </form>
+        <span class="err-message display-err js-span"
+          >Please enter a valid email address</span
+        >
       </section>
     </main>
     <footer class="footer">
@@ -245,5 +252,6 @@
         </nav>
       </div>
     </footer>
+    <script src="./script.js"></script>
   </body>
 </html>
