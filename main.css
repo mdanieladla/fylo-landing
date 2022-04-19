@@ -479,17 +479,18 @@ li{
     }
     /* ************ FOOTER ************ */
     .footer-img{
-        margin: 50px 0 0 30px;
+        margin: 50px 0 0 50px;
         /* margin-left: 30px;
         margin-bottom: 30px; */
-        width: 100px;
-        height: 100px;
+        width: 120px;
+        height: 70px;
     }
     
     .footer-desktop{
         display: flex;
         flex-direction: row;
         align-items: center;
+        justify-content: space-evenly;
     }
 
     .footer-par{
@@ -500,48 +501,8 @@ li{
         line-height: 23px;
         width: 350px;
     }
-/*     
-    .footer-phone, .footer-email{
-        margin-left: 20px;
-        margin-bottom: 20px;
+
+    .footer-location{
+        margin-left: 0;
     }
-    
-    .footer-span{
-        color: var(--white);
-        margin-left: 10px;
-        font-family: var(--body-font);
-        font-size: 15px;
-    }
-    
-    .footer-nav{
-        margin-top: 50px;
-    }
-    
-    .nav1, .nav2{
-        list-style-type: none;
-        color: var(--white);
-        font-family: var(--body-font);
-        font-size: 16px;
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .footer-nav-li{
-        margin-bottom: 10px;
-    }
-    
-    .footer-social-nav{
-        margin-top: 50px;
-        margin-bottom: 50px;
-        display: flex;
-        justify-content: center;
-        gap: 15px;
-    }
-    
-    .icons{
-        color: var(--white);
-        padding: 5px;
-        border: 1px solid white;
-        border-radius: 50px;
-    } */
 }
