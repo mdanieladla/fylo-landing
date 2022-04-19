@@ -37,7 +37,6 @@ body{
     padding-left: 10px;
     width: 70px;
     height: 25px;
-    
 }
 
 .header-ul{
@@ -278,8 +277,6 @@ li{
 .input::placeholder{
     color: rgb(170, 170, 170);
 }
-
-
 
 .access-btn{
     font-family: var(--body-font);
