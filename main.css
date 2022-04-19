@@ -274,6 +274,9 @@ li{
     padding-left: 30px;
     font-size: 12px;
     margin-bottom: 20px;
+}
+
+.input::placeholder{
     color: rgb(170, 170, 170);
 }
 
@@ -514,9 +517,16 @@ li{
     text-decoration: underline;
 }
 
-.hero-btn:hover{
+.hero-btn:hover, .access-btn:hover{
     border: var(--cta-gradient1);
     background-color: var(--cta-gradient1);
     font-weight: 700;
     cursor: pointer;
 }
+
+/* DE MOMENTO NO FUNCIONA!!!!!!!!!!!!!!!!!!!!!!!!!! */
+.productive-div-link:hover, .productive-link:hover, .productive-arrow:hover, .test:hover{
+    cursor: pointer;
+    color: white;
+}
+
