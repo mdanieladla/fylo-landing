@@ -168,7 +168,6 @@ li{
     background-color: var(--cta-gradient1);
 }
 /* ******************** OPINIONS ************************ */
-
 .opinions-quotes{
     width: 25px;
     height: 20px;
@@ -280,6 +279,8 @@ li{
     color: rgb(170, 170, 170);
 }
 
+
+
 .access-btn{
     font-family: var(--body-font);
     height: 45px;
@@ -366,7 +367,6 @@ li{
     font-family: var(--body-font);
     color: red;
     position: relative;
-    top: -15px;
     left: 15px;
 }
 
@@ -490,6 +490,16 @@ li{
        margin-right: 10px;
     }
     
+    .err-message{
+        font-weight: 600;
+        font-size: 12px;
+        font-family: var(--body-font);
+        color: red;
+        position: relative;
+        top: -15px;
+        left: 15px;
+    }
+
     .access-btn{
        width: 180px;
     }
@@ -537,9 +547,18 @@ li{
     cursor: pointer;
 }
 
-/* DE MOMENTO NO FUNCIONA!!!!!!!!!!!!!!!!!!!!!!!!!! */
-.productive-div-link:hover, .productive-link:hover, .productive-arrow:hover, .test:hover{
+.productive-link:hover{
     cursor: pointer;
     color: white;
+    font-weight: 600;
 }
 
+.nav1 li:hover, .nav2 li:hover{
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.footer-social-nav i:hover{
+    cursor: pointer;
+    color: var(--cta-gradient1);
+}
