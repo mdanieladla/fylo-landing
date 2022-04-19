@@ -506,3 +506,17 @@ li{
         margin-left: 0;
     }
 }
+
+/* ACTIVE STATES */
+.header-ul li:hover {
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.hero-btn:hover{
+    border: var(--cta-gradient1);
+    background-color: var(--cta-gradient1);
+    font-weight: 700;
+    cursor: pointer;
+}
