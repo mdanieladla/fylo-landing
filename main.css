@@ -1,16 +1,12 @@
 :root{
-    /*### Primary*/
     --main-background:  hsl(218, 28%, 13%);
     --footer-background: hsl(216, 53%, 9%);
     --testimonials-background: hsl(219, 30%, 18%);
     --intro-email-bkg: hsl(217, 28%, 15%);
-    /*### Accent*/
     --cta-gradient1: hsl(176, 68%, 64%);
     --cta-gradient2: hsl(198, 60%, 50%);
     --error: hsl(0, 100%, 63%);
-    /*### Neutral*/
     --white: hsl(0, 0%, 100%);
-    /*typography*/
     --body-copy: 14px;
     --headings-more: 'Raleway', sans-serif;
     --body-font: 'Open Sans', sans-serif;
@@ -51,6 +47,11 @@ body{
 
 li{
     margin-left: 20px;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: white;
 }
 /* ************************* HERO *************************** */
 .hero{
@@ -160,7 +161,7 @@ li{
     text-decoration: none;
 }
 
-.test{
+.productive-underline{
     margin-top: 5px;
     width: 135px;
     height: 1px;
@@ -295,8 +296,6 @@ li{
 
 .footer-img{
     margin: 50px 0 30px 30px;
-    /* margin-left: 30px;
-    margin-bottom: 30px; */
 }
 
 .footer-location{
